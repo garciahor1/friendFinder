@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+
+
+<body>
+<div id="dropAfterPosting">
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Pet friend finder survey</h1>
+            <p class="lead">Answer all questions to find your pet's best friend.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">pet's name required.</label>
+                        <input type="text" class="form-control" id="name-input" placeholder="Pet's Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">pet's breed required.</label>
+                        <input type="text" class="form-control" id="breed" placeholder="Pet's breed">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Pet image link required.</label>
+                        <input type="text" class="form-control" id="image-input" placeholder="Example https://image.redbull.com/rbcom/010/2015-07-27/1331737542701_2/0100/0/1/moon-hill-natural-bridge-in-china.jpg">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="row" id="questions">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <button href="#" class="btn btn-primary" id="submitForm">Submit form</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <script src="/survey.js"></script>
+
+    
+
+</body>
+
+</html>
