@@ -7,6 +7,9 @@ module.exports = function(server){
     server.get("/survey",function(req,res){
      res.sendFile(path.join(__dirname, "../public/survey.html"));
     });
-    
+
+    server.get("/repo",function(req,res){
+    res.redirect("https://github.com/garciahor1/friendFinder")
+    });
     
 }
