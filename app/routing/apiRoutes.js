@@ -1,5 +1,5 @@
 const friendsData = require("../data/friends");
-const path = require("path");
+
 
 module.exports = function (server) {
     server.get("/api/friends", function (req, res) {
